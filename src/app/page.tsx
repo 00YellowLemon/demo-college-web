@@ -7,10 +7,10 @@ export default function Home() {
   
 
   return (
-    <div>
+    <div className="bg-white">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-green-800 via-black to-red-800 text-white py-20 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-black opacity-20"></div>
+      <section className="relative bg-gradient-to-br from-green-700 via-red-700 to-green-800 text-white py-20 md:py-32 overflow-hidden">
+        <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -20,21 +20,21 @@ export default function Home() {
           <p className="text-xl md:text-3xl mb-8 font-light">
             A New Peak in Kenyan Education
           </p>
-          <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-gray-200">
+          <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-gray-100">
             Welcome to Kilele University, where we&apos;re building a new tradition of excellence from the ground up. Be a part of our founding story and shape the future with us.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-green-600 to-green-700 text-white font-bold rounded-lg hover:from-green-700 hover:to-green-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-green-800 font-bold rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Apply Now
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link
               href="/academics"
-              className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-black transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+              className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-green-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
             >
               Explore Programs
             </Link>
@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
       {/* Recent News Section */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -52,15 +52,15 @@ export default function Home() {
           </div>
           <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-shadow duration-300">
             <h3 className="text-2xl font-bold text-gray-900 mb-3">Kilele University Opens Its Doors!</h3>
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-700 mb-4">
               We are thrilled to announce that Kilele University officially opened its doors to our pioneer class of students on September 1st, 2023. After months of preparation, our campus is buzzing with the energy and excitement of our new students.
             </p>
-            <p className="text-gray-600 mb-6">
+            <p className="text-gray-700 mb-6">
               The first few weeks have been a resounding success, with orientation programs, inaugural lectures, and community-building events. We are incredibly proud of our founding students and look forward to the innovative ideas and vibrant culture they will bring to Kilele University.
             </p>
             <Link
               href="/about"
-              className="inline-flex items-center text-green-600 font-semibold hover:text-green-800 transition-colors"
+              className="inline-flex items-center text-green-700 font-semibold hover:text-green-900 transition-colors"
             >
               Read More About Our Journey
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -70,7 +70,7 @@ export default function Home() {
       </section>
 
       {/* Highlights Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {highlights.map((highlight, index) => {
@@ -80,13 +80,13 @@ export default function Home() {
               return (
                 <div 
                   key={highlight.id}
-                  className="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-xl transition-shadow duration-300"
+                  className="bg-gray-50 rounded-lg shadow-md p-6 text-center hover:shadow-xl transition-shadow duration-300 border border-gray-200"
                 >
-                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-500 to-green-700 rounded-full mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-600 to-red-600 rounded-full mb-4">
                     <Icon className="h-8 w-8 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{highlight.title}</h3>
-                  <p className="text-gray-600">{highlight.description}</p>
+                  <p className="text-gray-700">{highlight.description}</p>
                 </div>
               );
             })}
@@ -95,13 +95,13 @@ export default function Home() {
       </section>
 
       {/* Programs Overview Section */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Programs
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
               Choose from a wide range of programs designed to equip you with the skills and knowledge needed for success.
             </p>
           </div>
@@ -110,18 +110,18 @@ export default function Home() {
             {programCategories.map((category) => (
               <div 
                 key={category.id}
-                className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-shadow duration-300"
+                className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-shadow duration-300 border border-gray-200"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-red-600 to-green-700 rounded-full mb-4">
                   {category.id === 'undergraduate' && <BookOpen className="h-8 w-8 text-white" />}
                   {category.id === 'masters' && <Award className="h-8 w-8 text-white" />}
                   {category.id === 'postgraduate' && <CheckCircle className="h-8 w-8 text-white" />}
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">{category.title}</h3>
-                <p className="text-gray-600 mb-6">{category.description}</p>
+                <p className="text-gray-700 mb-6">{category.description}</p>
                 <Link
                   href={`/academics#${category.id}`}
-                  className="inline-flex items-center text-indigo-600 font-semibold hover:text-indigo-800 transition-colors"
+                  className="inline-flex items-center text-green-700 font-semibold hover:text-green-900 transition-colors"
                 >
                   Learn More
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -133,13 +133,13 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-16">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Words from Our Pioneers
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-700 max-w-2xl mx-auto">
               Hear from the first students to walk the halls of Kilele University.
             </p>
           </div>
@@ -153,7 +153,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-gradient-to-r from-green-700 to-green-800 text-white">
+      <section className="py-16 bg-gradient-to-r from-green-700 to-red-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Be a Pioneer?
@@ -181,4 +181,3 @@ export default function Home() {
     </div>
   );
 }
-

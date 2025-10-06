@@ -44,10 +44,10 @@ A comprehensive higher education institution website for a **newly established u
 ## Design System
 
 ### Color Palette
-- Primary: Indigo/Blue tones (academic, trustworthy)
-- Secondary: Amber/Gold accents (excellence, achievement)
+- Primary: Dark/Black tones
+- Secondary: Green accents
+- Tertiary: Red accents
 - Neutral: Gray scale for text and backgrounds
-- Success: Green for CTAs and positive actions
 
 ### Typography
 - Headings: Large, bold, hierarchical (text-4xl to text-6xl)
@@ -177,6 +177,10 @@ A comprehensive higher education institution website for a **newly established u
 - Orientation schedules
 
 **CTA:** Prominent "Apply Now" button linking to contact form
+
+
+
+
 
 
 

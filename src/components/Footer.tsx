@@ -20,7 +20,7 @@ export default function Footer() {
                 href={contactInfo.socialMedia.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-indigo-400 transition-colors"
+                className="hover:text-green-400 transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
@@ -29,7 +29,7 @@ export default function Footer() {
                 href={contactInfo.socialMedia.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-indigo-400 transition-colors"
+                className="hover:text-green-400 transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter className="h-5 w-5" />
@@ -38,7 +38,7 @@ export default function Footer() {
                 href={contactInfo.socialMedia.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-indigo-400 transition-colors"
+                className="hover:text-green-400 transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
@@ -47,7 +47,7 @@ export default function Footer() {
                 href={contactInfo.socialMedia.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-indigo-400 transition-colors"
+                className="hover:text-green-400 transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="h-5 w-5" />
@@ -56,7 +56,7 @@ export default function Footer() {
                 href={contactInfo.socialMedia.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-indigo-400 transition-colors"
+                className="hover:text-green-400 transition-colors"
                 aria-label="YouTube"
               >
                 <Youtube className="h-5 w-5" />
@@ -69,27 +69,27 @@ export default function Footer() {
             <h3 className="text-white text-lg font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/about" className="hover:text-indigo-400 transition-colors">
+                <Link href="/about" className="hover:text-green-400 transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/academics" className="hover:text-indigo-400 transition-colors">
+                <Link href="/academics" className="hover:text-green-400 transition-colors">
                   Academic Programs
                 </Link>
               </li>
               <li>
-                <Link href="/admissions" className="hover:text-indigo-400 transition-colors">
+                <Link href="/admissions" className="hover:text-green-400 transition-colors">
                   Admissions
                 </Link>
               </li>
               <li>
-                <Link href="/events" className="hover:text-indigo-400 transition-colors">
+                <Link href="/events" className="hover:text-green-400 transition-colors">
                   Events & News
                 </Link>
               </li>
               <li>
-                <Link href="/student-life" className="hover:text-indigo-400 transition-colors">
+                <Link href="/student-life" className="hover:text-green-400 transition-colors">
                   Student Life
                 </Link>
               </li>
@@ -101,27 +101,27 @@ export default function Footer() {
             <h3 className="text-white text-lg font-bold mb-4">Programs</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/academics#undergraduate" className="hover:text-indigo-400 transition-colors">
+                <Link href="/academics#undergraduate" className="hover:text-green-400 transition-colors">
                   Undergraduate
                 </Link>
               </li>
               <li>
-                <Link href="/academics#masters" className="hover:text-indigo-400 transition-colors">
+                <Link href="/academics#masters" className="hover:text-green-400 transition-colors">
                   Masters Programs
                 </Link>
               </li>
               <li>
-                <Link href="/academics#postgraduate" className="hover:text-indigo-400 transition-colors">
+                <Link href="/academics#postgraduate" className="hover:text-green-400 transition-colors">
                   Postgraduate Diplomas
                 </Link>
               </li>
               <li>
-                <Link href="/staff" className="hover:text-indigo-400 transition-colors">
+                <Link href="/staff" className="hover:text-green-400 transition-colors">
                   Faculty & Staff
                 </Link>
               </li>
               <li>
-                <Link href="/gallery" className="hover:text-indigo-400 transition-colors">
+                <Link href="/gallery" className="hover:text-green-400 transition-colors">
                   Campus Gallery
                 </Link>
               </li>
@@ -133,18 +133,18 @@ export default function Footer() {
             <h3 className="text-white text-lg font-bold mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
-                <MapPin className="h-5 w-5 text-indigo-400 flex-shrink-0 mt-0.5" />
+                <MapPin className="h-5 w-5 text-green-400 flex-shrink-0 mt-0.5" />
                 <span className="whitespace-pre-line">{contactInfo.address}</span>
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="h-5 w-5 text-indigo-400 flex-shrink-0" />
-                <a href={`tel:${contactInfo.phone}`} className="hover:text-indigo-400 transition-colors">
+                <Phone className="h-5 w-5 text-green-400 flex-shrink-0" />
+                <a href={`tel:${contactInfo.phone}`} className="hover:text-green-400 transition-colors">
                   {contactInfo.phone}
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="h-5 w-5 text-indigo-400 flex-shrink-0" />
-                <a href={`mailto:${contactInfo.email}`} className="hover:text-indigo-400 transition-colors">
+                <Mail className="h-5 w-5 text-green-400 flex-shrink-0" />
+                <a href={`mailto:${contactInfo.email}`} className="hover:text-green-400 transition-colors">
                   {contactInfo.email}
                 </a>
               </li>

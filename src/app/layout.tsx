@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="light scroll-smooth">
       <body className={`${inter.className} antialiased`}>
         <Navbar />
         <main className="pt-16 min-h-screen">
