@@ -1,11 +1,10 @@
 import Link from 'next/link';
 import { Award, Users, Microscope, BookOpen, ArrowRight, CheckCircle } from 'lucide-react';
-import { highlights, programCategories, events, testimonials } from '@/lib/data';
-import EventCard from '@/components/EventCard';
+import { highlights, programCategories, testimonials } from '@/lib/data';
 import TestimonialCard from '@/components/TestimonialCard';
 
 export default function Home() {
-  const upcomingEvents = events.slice(0, 3);
+  
 
   return (
     <div>
@@ -103,36 +102,6 @@ export default function Home() {
                 </Link>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Upcoming Events Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Upcoming Events
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Join us for exciting events, seminars, and activities throughout the academic year.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            {upcomingEvents.map((event) => (
-              <EventCard key={event.id} event={event} />
-            ))}
-          </div>
-
-          <div className="text-center">
-            <Link
-              href="/events"
-              className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-md hover:shadow-lg"
-            >
-              View All Events
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
           </div>
         </div>
       </section>

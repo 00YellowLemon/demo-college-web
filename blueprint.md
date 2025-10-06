@@ -1,16 +1,16 @@
 # Campus Website Blueprint
 
 ## Overview
-A comprehensive higher education institution website built with Next.js 15 (App Router), TypeScript, and TailwindCSS 4. The website showcases academic programs (Undergraduate, Postgraduate, Masters), campus facilities, events, student life, and provides admissions information with a modern, responsive design.
+A comprehensive higher education institution website for a **newly established university**, built with Next.js 15 (App Router), TypeScript, and TailwindCSS 4. The website showcases academic programs (Undergraduate, Postgraduate, Masters), campus facilities, inaugural events, student life, and provides admissions information with a modern, responsive design.
 
 ## Purpose & Capabilities
-- Provide prospective students with comprehensive information about academic programs, admissions, and campus life
-- Showcase institutional strengths: accreditation, experienced faculty, modern facilities, research opportunities
-- Enable easy navigation through program offerings with detailed information including fees, duration, and entry requirements
-- Display upcoming events, news, and academic calendar
-- Present staff/faculty profiles and student testimonials
-- Facilitate contact and inquiries through integrated contact forms
-- Fully responsive design optimized for mobile and desktop experiences
+- Provide prospective students with comprehensive information about academic programs, admissions, and campus life at a new university.
+- Establish the university's institutional identity and showcase its founding strengths: accreditation, experienced faculty, and modern facilities.
+- Enable easy navigation through program offerings with detailed information including fees, duration, and entry requirements.
+- Display upcoming inaugural events, news, and academic calendar.
+- Present founding staff/faculty profiles and current student testimonials.
+- Facilitate contact and inquiries through integrated contact forms.
+- Fully responsive design optimized for mobile and desktop experiences.
 
 ## Project Structure
 ```
@@ -26,8 +26,6 @@ A comprehensive higher education institution website built with Next.js 15 (App 
       page.tsx              # Admissions page
     /events
       page.tsx              # Events & News page
-    /gallery
-      page.tsx              # Gallery page
     /student-life
       page.tsx              # Student Life page
     /staff
@@ -38,9 +36,7 @@ A comprehensive higher education institution website built with Next.js 15 (App 
     Navbar.tsx              # Navigation component
     Footer.tsx              # Footer component
     ProgramCard.tsx         # Reusable program card
-    EventCard.tsx           # Event card component
     TestimonialCard.tsx     # Testimonial component
-    StaffCard.tsx           # Staff profile card
   /lib
     data.ts                 # Demo data (programs, events, staff, etc.)
 ```
@@ -89,10 +85,10 @@ A comprehensive higher education institution website built with Next.js 15 (App 
 
 **Highlights Section:**
 - Four key strengths with icons:
-  - Internationally Accredited
-  - 200+ Experienced Faculty
+  - Fully Accredited
+  - Experienced Faculty
   - State-of-the-Art Labs
-  - Leading Research Opportunities
+  - Exciting Research Opportunities
 - Grid layout with cards
 
 **Programs Overview:**
@@ -103,14 +99,14 @@ A comprehensive higher education institution website built with Next.js 15 (App 
 - Each with icon, description, and "Learn More" link
 
 **Upcoming Events Preview:**
-- Showcase 3 upcoming events
+- Showcase 3 upcoming inaugural events
 - Event cards with date, title, and description
 - Link to full Events page
 
 **Testimonials:**
-- Student and alumni quotes
+- Current student quotes
 - Profile images (placeholders)
-- Name, program, and graduation year
+- Name and program
 - Carousel/grid layout
 
 **Footer:**
@@ -120,13 +116,12 @@ A comprehensive higher education institution website built with Next.js 15 (App 
 - Copyright notice
 
 ### 2. About Page (/about)
-- Campus history and founding story
+- Founding story
 - Mission: Educational excellence and innovation
-- Vision: Leading institution in East Africa
+- Vision: To become a leading institution in East Africa
 - Core values: Excellence, Integrity, Innovation, Community
-- Leadership message from Chancellor/Dean
+- Leadership message from the Founding Chancellor/Dean
 - Facility photos grid (library, labs, campus grounds)
-- Statistics: student population, programs, research output
 - **Our Programmes**: A new section has been added to showcase the university's programs, categorized into 'Masters', 'Degree', and 'Diploma' programs. Each category displays the relevant program cards.
 
 ### 3. Academics/Programs Page (/academics)
@@ -183,98 +178,12 @@ A comprehensive higher education institution website built with Next.js 15 (App 
 
 **CTA:** Prominent "Apply Now" button linking to contact form
 
-### 5. Events & News Page (/events)
-**Upcoming Events:**
-- Research Symposium
-- Open Day for Prospective Students
-- Graduation Ceremony
-- Guest Lectures & Seminars
-- Sports Day
-- Career Fair
 
-**Event Details:**
-- Date and time
-- Location
-- Brief description
-- Registration/RSVP option
 
-**News & Announcements:**
-- Recent achievements
-- New program launches
-- Research breakthroughs
-- Campus updates
 
-**Academic Calendar Highlights:**
-- Semester dates
-- Exam periods
-- Holiday breaks
-- Important deadlines
 
-### 6. Gallery Page (/gallery)
-**Photo Categories:**
-- Campus Facilities (library, labs, lecture halls)
-- Student Activities (clubs, sports, events)
-- Graduation Ceremonies
-- Research & Innovation
-- Campus Life
 
-**Layout:**
-- Responsive grid (masonry or uniform)
-- Lightbox/modal for full-size viewing
-- Placeholder images with proper aspect ratios
-- Captions for context
-
-### 7. Student Life Page (/student-life)
-**Clubs & Societies:**
-- Academic clubs (IT Club, Business Club)
-- Cultural societies
-- Debate and Drama clubs
-- Environmental groups
-
-**Sports & Recreation:**
-- Football, Basketball, Volleyball teams
-- Athletics and Track
-- Fitness center
-- Intramural competitions
-
-**Arts & Culture:**
-- Music and Dance groups
-- Theater productions
-- Art exhibitions
-- Cultural festivals
-
-**Student Accommodation:**
-- On-campus hostels
-- Room types and amenities
-- Booking process
-
-**Student Leadership:**
-- Student council
-- Class representatives
-- Peer mentorship programs
-
-### 8. Staff/Faculty Page (/staff)
-**Faculty Profiles:**
-- Profile photo (placeholder)
-- Full name and title (Dr., Prof.)
-- Department/School
-- Specialization/Research interests
-- Email contact
-
-**Departments:**
-- School of Computing & IT
-- School of Business
-- School of Health Sciences
-- School of Engineering
-- School of Education
-
-**Layout:**
-- Grid of profile cards
-- Filterable by department
-- Search functionality
-- 20-30 sample faculty members
-
-### 9. Contact Page (/contact)
+### 8. Contact Page (/contact)
 **Contact Form:**
 - Name (required)
 - Email (required)
@@ -333,20 +242,19 @@ A comprehensive higher education institution website built with Next.js 15 (App 
 4. Build reusable components:
    - Navbar with mobile menu
    - Footer with social links
-   - ProgramCard, EventCard, TestimonialCard, StaffCard
+   - ProgramCard, TestimonialCard
 5. Update root layout with Navbar and Footer
 6. Create Homepage with all sections
 7. Build About page with mission/vision
 8. Build Academics page with program listings
 9. Build Admissions page with process steps
 10. Build Events page with upcoming events
-11. Build Gallery page with image grid
-12. Build Student Life page with activities
-13. Build Staff page with faculty profiles
-14. Build Contact page with form and map
-15. Test responsive design and accessibility
-16. Run linting and fix issues
-17. Verify all routes and navigation work
+11. Build Student Life page with activities
+12. Build Staff page with faculty profiles
+13. Build Contact page with form and map
+14. Test responsive design and accessibility
+15. Run linting and fix issues
+16. Verify all routes and navigation work
 
 ## Design Philosophy
 The website embodies modern educational excellence through:

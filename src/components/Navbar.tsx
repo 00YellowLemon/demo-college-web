@@ -9,10 +9,6 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Academics', href: '/academics' },
   { name: 'Admissions', href: '/admissions' },
-  { name: 'Events', href: '/events' },
-  { name: 'Gallery', href: '/gallery' },
-  { name: 'Student Life', href: '/student-life' },
-  { name: 'Staff', href: '/staff' },
   { name: 'Contact', href: '/contact' },
 ];
 

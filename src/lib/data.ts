@@ -11,24 +11,9 @@ export interface Program {
   description: string;
 }
 
-export interface Event {
-  id: string;
-  title: string;
-  date: string;
-  time: string;
-  location: string;
-  description: string;
-  category: 'seminar' | 'open-day' | 'graduation' | 'research' | 'sports' | 'career';
-}
 
-export interface StaffMember {
-  id: string;
-  name: string;
-  title: string;
-  department: string;
-  specialization: string;
-  email: string;
-}
+
+
 
 export interface Testimonial {
   id: string;
@@ -187,179 +172,11 @@ export const programs: Program[] = [
   },
 ];
 
-export const events: Event[] = [
-  {
-    id: 'research-symposium',
-    title: 'Annual Research Symposium 2025',
-    date: '2025-03-15',
-    time: '9:00 AM - 5:00 PM',
-    location: 'Main Auditorium',
-    description: 'Showcase of cutting-edge research by faculty and postgraduate students across all disciplines.',
-    category: 'research',
-  },
-  {
-    id: 'open-day',
-    title: 'Open Day for Prospective Students',
-    date: '2025-02-20',
-    time: '10:00 AM - 4:00 PM',
-    location: 'Campus Grounds',
-    description: 'Tour our facilities, meet faculty, and learn about our programs. Free registration for all attendees.',
-    category: 'open-day',
-  },
-  {
-    id: 'graduation',
-    title: '45th Graduation Ceremony',
-    date: '2025-06-12',
-    time: '8:00 AM - 2:00 PM',
-    location: 'University Stadium',
-    description: 'Celebrating the achievements of our graduating class. Over 2,500 students receiving their degrees.',
-    category: 'graduation',
-  },
-  {
-    id: 'guest-lecture',
-    title: 'Guest Lecture: AI & Future of Work',
-    date: '2025-02-28',
-    time: '2:00 PM - 4:00 PM',
-    location: 'Lecture Hall A',
-    description: 'Distinguished speaker from industry sharing insights on artificial intelligence and career preparation.',
-    category: 'seminar',
-  },
-  {
-    id: 'career-fair',
-    title: 'Annual Career Fair 2025',
-    date: '2025-04-10',
-    time: '9:00 AM - 5:00 PM',
-    location: 'Student Center',
-    description: 'Connect with 50+ employers seeking interns and graduates. Bring your CV and dress professionally.',
-    category: 'career',
-  },
-  {
-    id: 'sports-day',
-    title: 'Inter-Faculty Sports Day',
-    date: '2025-03-22',
-    time: '8:00 AM - 6:00 PM',
-    location: 'Sports Complex',
-    description: 'Annual sporting competition between faculties. Football, basketball, athletics, and more.',
-    category: 'sports',
-  },
-];
 
-export const staff: StaffMember[] = [
-  {
-    id: 'prof-kamau',
-    name: 'Prof. James Kamau',
-    title: 'Professor',
-    department: 'School of Computing & IT',
-    specialization: 'Artificial Intelligence & Machine Learning',
-    email: 'j.kamau@horizon.ac.ke',
-  },
-  {
-    id: 'dr-wanjiru',
-    name: 'Dr. Grace Wanjiru',
-    title: 'Senior Lecturer',
-    department: 'School of Business',
-    specialization: 'Strategic Management & Entrepreneurship',
-    email: 'g.wanjiru@horizon.ac.ke',
-  },
-  {
-    id: 'dr-ochieng',
-    name: 'Dr. Peter Ochieng',
-    title: 'Associate Professor',
-    department: 'School of Engineering',
-    specialization: 'Structural Engineering & Construction',
-    email: 'p.ochieng@horizon.ac.ke',
-  },
-  {
-    id: 'dr-akinyi',
-    name: 'Dr. Mary Akinyi',
-    title: 'Senior Lecturer',
-    department: 'School of Health Sciences',
-    specialization: 'Public Health & Epidemiology',
-    email: 'm.akinyi@horizon.ac.ke',
-  },
-  {
-    id: 'prof-kipchoge',
-    name: 'Prof. David Kipchoge',
-    title: 'Professor',
-    department: 'School of Education',
-    specialization: 'Educational Psychology & Curriculum Development',
-    email: 'd.kipchoge@horizon.ac.ke',
-  },
-  {
-    id: 'dr-njeri',
-    name: 'Dr. Anne Njeri',
-    title: 'Lecturer',
-    department: 'School of Computing & IT',
-    specialization: 'Software Engineering & Web Technologies',
-    email: 'a.njeri@horizon.ac.ke',
-  },
-  {
-    id: 'dr-mutua',
-    name: 'Dr. Samuel Mutua',
-    title: 'Senior Lecturer',
-    department: 'School of Business',
-    specialization: 'Finance & Investment Management',
-    email: 's.mutua@horizon.ac.ke',
-  },
-  {
-    id: 'dr-chebet',
-    name: 'Dr. Susan Chebet',
-    title: 'Lecturer',
-    department: 'School of Health Sciences',
-    specialization: 'Nursing Practice & Patient Care',
-    email: 's.chebet@horizon.ac.ke',
-  },
-  {
-    id: 'prof-otieno',
-    name: 'Prof. Michael Otieno',
-    title: 'Professor',
-    department: 'School of Engineering',
-    specialization: 'Electrical Engineering & Renewable Energy',
-    email: 'm.otieno@horizon.ac.ke',
-  },
-  {
-    id: 'dr-mwangi',
-    name: 'Dr. John Mwangi',
-    title: 'Associate Professor',
-    department: 'School of Business',
-    specialization: 'Marketing & Consumer Behavior',
-    email: 'j.mwangi@horizon.ac.ke',
-  },
-  {
-    id: 'dr-wambui',
-    name: 'Dr. Catherine Wambui',
-    title: 'Lecturer',
-    department: 'School of Education',
-    specialization: 'Mathematics Education & STEM',
-    email: 'c.wambui@horizon.ac.ke',
-  },
-  {
-    id: 'dr-kimani',
-    name: 'Dr. Robert Kimani',
-    title: 'Senior Lecturer',
-    department: 'School of Computing & IT',
-    specialization: 'Cybersecurity & Network Administration',
-    email: 'r.kimani@horizon.ac.ke',
-  },
-];
+
+
 
 export const testimonials: Testimonial[] = [
-  {
-    id: 'testimonial-1',
-    name: 'Sarah Mueni',
-    program: 'BSc in Computer Science',
-    year: '2023',
-    quote: 'The hands-on approach and industry partnerships at Horizon University prepared me perfectly for my career in tech. I landed my dream job even before graduation!',
-    role: 'Alumni',
-  },
-  {
-    id: 'testimonial-2',
-    name: 'David Omondi',
-    program: 'MBA',
-    year: '2024',
-    quote: 'The MBA program transformed my leadership skills. The faculty brings real-world experience into the classroom, and the networking opportunities are invaluable.',
-    role: 'Alumni',
-  },
   {
     id: 'testimonial-3',
     name: 'Faith Wanjiku',
@@ -381,12 +198,12 @@ export const testimonials: Testimonial[] = [
 export const highlights = [
   {
     id: 'accreditation',
-    title: 'Internationally Accredited',
-    description: 'Recognized by leading educational bodies worldwide',
+    title: 'Fully Accredited',
+    description: 'Recognized by the Commission for University Education',
   },
   {
     id: 'faculty',
-    title: '200+ Experienced Faculty',
+    title: 'Experienced Faculty',
     description: 'Learn from industry experts and leading researchers',
   },
   {
@@ -396,8 +213,8 @@ export const highlights = [
   },
   {
     id: 'research',
-    title: 'Leading Research Opportunities',
-    description: 'Engage in cutting-edge research projects',
+    title: 'Exciting Research Opportunities',
+    description: 'Engage in impactful research from day one',
   },
 ];
 
@@ -422,28 +239,9 @@ export const programCategories = [
   },
 ];
 
-export const clubs = [
-  'IT & Innovation Club',
-  'Business & Entrepreneurship Society',
-  'Drama & Theatre Club',
-  'Debate Society',
-  'Environmental Club',
-  'Music & Arts Society',
-  'Photography Club',
-  'Student Christian Fellowship',
-  'Muslim Students Association',
-];
 
-export const sports = [
-  'Football (Men & Women)',
-  'Basketball',
-  'Volleyball',
-  'Athletics & Track',
-  'Rugby',
-  'Table Tennis',
-  'Chess Club',
-  'Fitness & Gym',
-];
+
+
 
 export const contactInfo = {
   address: 'Horizon University\nUniversity Road, Off Thika Superhighway\nP.O. Box 12345-00100\nNairobi, Kenya',
