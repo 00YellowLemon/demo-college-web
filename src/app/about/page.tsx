@@ -3,8 +3,8 @@ import { programs } from '@/lib/data';
 import ProgramCard from '@/components/ProgramCard';
 
 export const metadata = {
-  title: 'About Us - Horizon University',
-  description: 'Learn about Horizon University - our history, mission, vision, values, and leadership.',
+  title: 'About Us - Kilele University',
+  description: 'Learn about Kilele University - our history, mission, vision, values, and leadership.',
 };
 
 export default function AboutPage() {
@@ -17,7 +17,7 @@ export default function AboutPage() {
       {/* Header */}
       <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Horizon University</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Kilele University</h1>
           <p className="text-xl">Discover our story, values, and commitment to excellence</p>
         </div>
       </section>
@@ -30,13 +30,13 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our History</h2>
               <div className="prose prose-lg">
                 <p className="text-gray-700 mb-4">
-                  Founded in 1985, Horizon University has been at the forefront of higher education in East Africa for nearly four decades. What began as a small college with just 200 students has grown into a comprehensive university serving over 15,000 students from across the region and beyond.
+                  Welcome to Kilele University, a new institution for a new era of learners. We opened our doors in 2023 with a pioneering spirit and a commitment to providing modern, relevant education that meets the challenges of the 21st century. As a young and dynamic university, we are dedicated to fostering innovation, creativity, and leadership in our students from day one.
                 </p>
                 <p className="text-gray-700 mb-4">
                   Our journey has been marked by continuous innovation in teaching methods, curriculum development, and research excellence. From our humble beginnings, we have expanded to include five schools offering diverse programs from undergraduate to doctoral levels.
                 </p>
                 <p className="text-gray-700">
-                  Today, Horizon University stands as a beacon of educational excellence, recognized internationally for our commitment to producing graduates who are not only academically sound but also ethically grounded and socially responsible.
+                  As a new university, Kilele University is writing its history right now. We are building a legacy of excellence from the ground up, with a focus on student-centered learning and impactful research that addresses the needs of our communities.
                 </p>
               </div>
             </div>
@@ -135,13 +135,13 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Message from the Vice Chancellor</h2>
                 <div className="prose prose-lg">
                   <p className="text-gray-700 mb-4">
-                    Welcome to Horizon University, where we are committed to shaping the leaders of tomorrow. As Vice Chancellor, I am proud to lead an institution that has consistently demonstrated excellence in academic achievement, research innovation, and community service.
+                    Welcome to Kilele University, where we are excited to pioneer a new chapter in higher education. As the founding Vice Chancellor, it is my honor to lead an institution that is built on a foundation of innovation, accessibility, and a deep commitment to student success.
                   </p>
                   <p className="text-gray-700 mb-4">
                     Our university is more than just a place of learning; it is a vibrant community where students from diverse backgrounds come together to pursue their dreams, challenge themselves, and prepare for meaningful careers. We provide a supportive environment that fosters intellectual curiosity, critical thinking, and personal growth.
                   </p>
                   <p className="text-gray-700">
-                    Whether you are a prospective student, current student, parent, or partner, I invite you to explore the opportunities that Horizon University offers. Together, we will continue to empower minds and shape futures for generations to come.
+                    Whether you are a prospective student, current student, parent, or partner, I invite you to explore the opportunities that Kilele University offers. Together, we will continue to empower minds and shape futures for generations to come.
                   </p>
                 </div>
               </div>

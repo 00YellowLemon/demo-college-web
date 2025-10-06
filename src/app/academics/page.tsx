@@ -2,7 +2,7 @@ import { programs } from '@/lib/data';
 import ProgramCard from '@/components/ProgramCard';
 
 export const metadata = {
-  title: 'Academic Programs - Horizon University',
+  title: 'Academic Programs - Kilele University',
   description: 'Explore our wide range of Undergraduate, Masters, and Postgraduate programs with detailed information on fees, duration, and entry requirements.',
 };
 
@@ -28,7 +28,7 @@ export default function AcademicsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg text-gray-700">
-              Horizon University offers a diverse portfolio of programs across five schools. 
+              Kilele University offers a diverse portfolio of programs across five schools.
               Each program combines theoretical knowledge with practical skills, ensuring our graduates 
               are well-prepared for the demands of the modern workplace.
             </p>

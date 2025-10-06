@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --kenyan-green: #008851;
+  --kenyan-red: #E3000F;
+  --kenyan-black: #000000;
+  --kenyan-white: #FFFFFF;
 }
 
 @theme inline {

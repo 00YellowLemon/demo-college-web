@@ -2,8 +2,8 @@ import { CheckCircle, FileText, Download, Calendar } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Admissions - Horizon University',
-  description: 'Learn about the admission process, requirements, and key dates for Horizon University programs.',
+  title: 'Admissions - Kilele University',
+  description: 'Learn about the admission process, requirements, and key dates for Kilele University programs.',
 };
 
 export default function AdmissionsPage() {
@@ -82,7 +82,7 @@ export default function AdmissionsPage() {
               Admission Process
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Follow these simple steps to apply to Horizon University
+              Follow these simple steps to apply to Kilele University
             </p>
           </div>
 

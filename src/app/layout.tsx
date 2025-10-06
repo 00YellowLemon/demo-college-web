@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Horizon University - Empowering Minds, Shaping Futures",
+  title: "Kilele University - Empowering Minds, Shaping Futures",
   description: "Leading higher education institution offering Undergraduate, Masters, and Postgraduate programs. Internationally accredited with experienced faculty and state-of-the-art facilities.",
 };
 
