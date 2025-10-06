@@ -22,7 +22,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <GraduationCap className="h-8 w-8 text-indigo-600" />
-            <span className="text-xl font-bold text-gray-900">Horizon University</span>
+            <span className="text-xl font-bold text-gray-900">Kilele University</span>
           </Link>
 
           {/* Desktop Navigation */}
