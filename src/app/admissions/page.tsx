@@ -67,7 +67,7 @@ export default function AdmissionsPage() {
   return (
     <div>
       {/* Header */}
-      <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16">
+      <section className="bg-gradient-to-r from-green-700 to-red-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Admissions</h1>
           <p className="text-xl">Your journey to excellence begins here</p>
@@ -77,7 +77,7 @@ export default function AdmissionsPage() {
       {/* Admission Process */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-left md:text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Admission Process
             </h2>
@@ -92,7 +92,7 @@ export default function AdmissionsPage() {
                 key={item.step}
                 className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300"
               >
-                <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full mb-4 text-white text-xl font-bold">
+                <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-green-600 to-red-600 rounded-full mb-4 text-white text-xl font-bold">
                   {item.step}
                 </div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
@@ -133,8 +133,8 @@ export default function AdmissionsPage() {
               <div className="space-y-4">
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300">
                   <div className="flex items-center gap-4">
-                    <div className="bg-indigo-100 p-3 rounded-lg">
-                      <FileText className="h-8 w-8 text-indigo-600" />
+                    <div className="bg-green-100 p-3 rounded-lg">
+                      <FileText className="h-8 w-8 text-green-700" />
                     </div>
                     <div className="flex-1">
                       <h3 className="font-bold text-gray-900 mb-1">Application Form</h3>
@@ -146,8 +146,8 @@ export default function AdmissionsPage() {
 
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300">
                   <div className="flex items-center gap-4">
-                    <div className="bg-indigo-100 p-3 rounded-lg">
-                      <FileText className="h-8 w-8 text-indigo-600" />
+                    <div className="bg-green-100 p-3 rounded-lg">
+                      <FileText className="h-8 w-8 text-green-700" />
                     </div>
                     <div className="flex-1">
                       <h3 className="font-bold text-gray-900 mb-1">Admission Policy</h3>
@@ -159,8 +159,8 @@ export default function AdmissionsPage() {
 
                 <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300">
                   <div className="flex items-center gap-4">
-                    <div className="bg-indigo-100 p-3 rounded-lg">
-                      <FileText className="h-8 w-8 text-indigo-600" />
+                    <div className="bg-green-100 p-3 rounded-lg">
+                      <FileText className="h-8 w-8 text-green-700" />
                     </div>
                     <div className="flex-1">
                       <h3 className="font-bold text-gray-900 mb-1">Fee Structure Guide</h3>
@@ -193,9 +193,9 @@ export default function AdmissionsPage() {
                 key={index}
                 className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300"
               >
-                <Calendar className="h-10 w-10 text-indigo-600 mb-4" />
+                <Calendar className="h-10 w-10 text-green-700 mb-4" />
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
-                <p className="text-2xl font-bold text-indigo-600">{item.date}</p>
+                <p className="text-2xl font-bold text-green-700">{item.date}</p>
               </div>
             ))}
           </div>
@@ -203,7 +203,7 @@ export default function AdmissionsPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+      <section className="py-16 bg-gradient-to-r from-green-700 to-red-700 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Apply?
@@ -213,7 +213,7 @@ export default function AdmissionsPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center justify-center px-8 py-4 bg-white text-indigo-900 font-bold rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl"
+            className="inline-flex items-center justify-center px-8 py-4 bg-white text-green-800 font-bold rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             Submit Application
           </Link>

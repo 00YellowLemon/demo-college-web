@@ -15,7 +15,7 @@ export default function AboutPage() {
   return (
     <div>
       {/* Header */}
-      <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-16">
+      <section className="bg-gradient-to-r from-green-700 to-red-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Kilele University</h1>
           <p className="text-xl">Discover our story, values, and commitment to excellence</p>
@@ -23,7 +23,7 @@ export default function AboutPage() {
       </section>
 
       {/* History Section */}
-      <section className="py-16">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -40,22 +40,22 @@ export default function AboutPage() {
                 </p>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-indigo-100 to-purple-100 rounded-lg p-8">
+            <div className="bg-gradient-to-br from-green-50 to-red-50 rounded-lg p-8">
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-white rounded-lg p-6 text-center shadow-md">
-                  <p className="text-4xl font-bold text-indigo-600 mb-2">1985</p>
+                  <p className="text-4xl font-bold text-green-700 mb-2">2023</p>
                   <p className="text-gray-700 text-sm">Year Founded</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center shadow-md">
-                  <p className="text-4xl font-bold text-indigo-600 mb-2">15,000+</p>
+                  <p className="text-4xl font-bold text-green-700 mb-2">15,000+</p>
                   <p className="text-gray-700 text-sm">Students</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center shadow-md">
-                  <p className="text-4xl font-bold text-indigo-600 mb-2">50+</p>
+                  <p className="text-4xl font-bold text-green-700 mb-2">50+</p>
                   <p className="text-gray-700 text-sm">Programs</p>
                 </div>
                 <div className="bg-white rounded-lg p-6 text-center shadow-md">
-                  <p className="text-4xl font-bold text-indigo-600 mb-2">200+</p>
+                  <p className="text-4xl font-bold text-green-700 mb-2">200+</p>
                   <p className="text-gray-700 text-sm">Faculty</p>
                 </div>
               </div>
@@ -69,8 +69,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Mission */}
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full mb-4">
+            <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-600 to-red-600 rounded-full mb-4">
                 <Target className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
@@ -80,8 +80,8 @@ export default function AboutPage() {
             </div>
 
             {/* Vision */}
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full mb-4">
+            <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-600 to-red-600 rounded-full mb-4">
                 <Eye className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
@@ -91,26 +91,26 @@ export default function AboutPage() {
             </div>
 
             {/* Values */}
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full mb-4">
+            <div className="bg-white rounded-lg shadow-md p-8 border border-gray-200">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-600 to-red-600 rounded-full mb-4">
                 <Heart className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Values</h3>
               <ul className="text-gray-700 space-y-2">
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span>
+                  <span className="w-2 h-2 bg-green-700 rounded-full"></span>
                   Excellence in all we do
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span>
+                  <span className="w-2 h-2 bg-green-700 rounded-full"></span>
                   Integrity and Ethics
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span>
+                  <span className="w-2 h-2 bg-green-700 rounded-full"></span>
                   Innovation and Creativity
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-indigo-600 rounded-full"></span>
+                  <span className="w-2 h-2 bg-green-700 rounded-full"></span>
                   Community Engagement
                 </li>
               </ul>
@@ -120,16 +120,16 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership Message */}
-      <section className="py-16">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-lg shadow-xl overflow-hidden">
+          <div className="bg-white rounded-lg shadow-xl overflow-hidden border border-gray-200">
             <div className="grid grid-cols-1 lg:grid-cols-3">
-              <div className="bg-gradient-to-br from-indigo-600 to-purple-600 p-8 text-white flex flex-col justify-center items-center">
+              <div className="bg-gradient-to-br from-green-700 to-red-700 p-8 text-white flex flex-col justify-center items-center">
                 <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-4">
-                  <Users className="h-16 w-16 text-indigo-600" />
+                  <Users className="h-16 w-16 text-green-700" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Prof. Elizabeth Muthoni</h3>
-                <p className="text-indigo-200">Vice Chancellor</p>
+                <p className="text-gray-100">Vice Chancellor</p>
               </div>
               <div className="lg:col-span-2 p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Message from the Vice Chancellor</h2>
@@ -163,8 +163,8 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+              <div className="h-48 bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center">
                 <BookOpen className="h-20 w-20 text-white" />
               </div>
               <div className="p-6">
@@ -173,8 +173,8 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+              <div className="h-48 bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center">
                 <Microscope className="h-20 w-20 text-white" />
               </div>
               <div className="p-6">
@@ -183,8 +183,8 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="h-48 bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+              <div className="h-48 bg-gradient-to-br from-green-600 to-red-600 flex items-center justify-center">
                 <Building className="h-20 w-20 text-white" />
               </div>
               <div className="p-6">
@@ -193,8 +193,8 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="h-48 bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center">
+            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+              <div className="h-48 bg-gradient-to-br from-red-600 to-green-600 flex items-center justify-center">
                 <Award className="h-20 w-20 text-white" />
               </div>
               <div className="p-6">
@@ -207,7 +207,7 @@ export default function AboutPage() {
       </section>
 
       {/* Programs Section */}
-      <section className="py-16">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">

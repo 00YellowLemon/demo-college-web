@@ -13,7 +13,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
         
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left md:text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
             Kilele University
           </h1>
@@ -45,7 +45,7 @@ export default function Home() {
       {/* Recent News Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-left md:text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Recent News
             </h2>
@@ -80,7 +80,7 @@ export default function Home() {
               return (
                 <div 
                   key={highlight.id}
-                  className="bg-gray-50 rounded-lg shadow-md p-6 text-center hover:shadow-xl transition-shadow duration-300 border border-gray-200"
+                  className="bg-gray-50 rounded-lg shadow-md p-6 text-left md:text-center hover:shadow-xl transition-shadow duration-300 border border-gray-200"
                 >
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-600 to-red-600 rounded-full mb-4">
                     <Icon className="h-8 w-8 text-white" />
@@ -97,7 +97,7 @@ export default function Home() {
       {/* Programs Overview Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-left md:text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Programs
             </h2>
@@ -135,7 +135,7 @@ export default function Home() {
       {/* Testimonials Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-left md:text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Words from Our Pioneers
             </h2>
@@ -154,7 +154,7 @@ export default function Home() {
 
       {/* Call to Action Section */}
       <section className="py-16 bg-gradient-to-r from-green-700 to-red-700 text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-left md:text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Be a Pioneer?
           </h2>

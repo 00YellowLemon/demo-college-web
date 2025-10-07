@@ -237,28 +237,19 @@ A comprehensive higher education institution website for a **newly established u
 - Efficient CSS with TailwindCSS purging
 - Fast page transitions
 
-## Current Plan: Initial Website Build
+## Current Plan: Update Contact Page Styles
 
-### Steps to Complete:
-1. ✅ Create project blueprint
-2. Install required dependencies (lucide-react for icons)
-3. Create data file with demo content (programs, events, staff, testimonials)
-4. Build reusable components:
-   - Navbar with mobile menu
-   - Footer with social links
-   - ProgramCard, TestimonialCard
-5. Update root layout with Navbar and Footer
-6. Create Homepage with all sections
-7. Build About page with mission/vision
-8. Build Academics page with program listings
-9. Build Admissions page with process steps
-10. Build Events page with upcoming events
-11. Build Student Life page with activities
-12. Build Staff page with faculty profiles
-13. Build Contact page with form and map
-14. Test responsive design and accessibility
-15. Run linting and fix issues
-16. Verify all routes and navigation work
+### Steps Completed:
+1. ✅ **Analyzed Home Page and Contact Page:** Compared the color schemes and identified the blue/purple elements to be replaced on the contact page.
+2. ✅ **Updated Contact Page Color Scheme:**
+    - Replaced the header gradient with a `green-700` to `red-700` gradient.
+    - Changed icon backgrounds to `bg-green-100` and icon color to `text-green-700`.
+    - Updated form focus rings and button colors to use the new green/red palette.
+    - Replaced the map section's gradient and icon colors.
+3. ✅ **Improved Light Mode & Contrast:**
+    - Ensured all text has sufficient contrast against the light backgrounds (`bg-white`, `bg-gray-50`).
+    - Adjusted text colors (`text-gray-600`, `text-gray-800`) for better readability.
+4. ✅ **Updated `blueprint.md`:** Documented the changes to the contact page.
 
 ## Design Philosophy
 The website embodies modern educational excellence through:
