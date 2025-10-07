@@ -44,10 +44,11 @@ A comprehensive higher education institution website for a **newly established u
 ## Design System
 
 ### Color Palette
-- Primary: Dark/Black tones
-- Secondary: Green accents
-- Tertiary: Red accents
-- Neutral: Gray scale for text and backgrounds
+- Primary: White and light gray backgrounds
+- Secondary: Green accents (#008851, green-600, green-700)
+- Tertiary: Red accents (#E3000F, red-600, red-700)
+- Neutral: Gray scale for text and backgrounds (gray-50 to gray-900)
+- Text: Dark gray for primary text (gray-900, gray-800, gray-700)
 
 ### Typography
 - Headings: Large, bold, hierarchical (text-4xl to text-6xl)
@@ -55,18 +56,19 @@ A comprehensive higher education institution website for a **newly established u
 - Emphasis: Font weight and color variations
 
 ### Components Style
-- Cards: White background, subtle shadows, rounded corners, hover effects
-- Buttons: Bold CTAs with gradient backgrounds, hover animations
-- Forms: Clean inputs with focus states
-- Navigation: Fixed navbar with smooth scroll, mobile-responsive hamburger menu
-- Footer: Multi-column layout with social icons
+- Cards: White background, subtle shadows, rounded corners, hover effects, light gray borders
+- Buttons: Bold CTAs with green-to-red gradient backgrounds, hover animations
+- Forms: Clean inputs with focus states using green accent colors
+- Navigation: Fixed navbar with light background, subtle border, mobile-responsive hamburger menu
+- Footer: Light gray background with subtle top border
 
 ### Visual Effects
 - Drop shadows on cards for depth
-- Gradient overlays on hero sections
+- Gradient overlays on hero sections (green to red)
 - Hover transitions on interactive elements
 - Smooth scroll behavior
 - Icon integration for visual hierarchy
+- Vercel-style clean, minimal design with subtle borders
 
 ### Responsive Design
 - Mobile-first approach
@@ -237,21 +239,18 @@ A comprehensive higher education institution website for a **newly established u
 - Efficient CSS with TailwindCSS purging
 - Fast page transitions
 
-## Current Plan: Update Contact Page Styles
+## Current Plan: Light Theme Conversion
 
-### Steps Completed:
-1. ✅ **Analyzed Home Page and Contact Page:** Compared the color schemes and identified the blue/purple elements to be replaced on the contact page.
-2. ✅ **Updated Contact Page Color Scheme:**
-    - Replaced the header gradient with a `green-700` to `red-700` gradient.
-    - Changed icon backgrounds to `bg-green-100` and icon color to `text-green-700`.
-    - Updated form focus rings and button colors to use the new green/red palette.
-    - Replaced the map section's gradient and icon colors.
-3. ✅ **Improved Light Mode & Contrast:**
-    - Ensured all text has sufficient contrast against the light backgrounds (`bg-white`, `bg-gray-50`).
-    - Adjusted text colors (`text-gray-600`, `text-gray-800`) for better readability.
-4. ✅ **Updated `blueprint.md`:** Documented the changes to the contact page.
+### Completed Changes:
+1. ✅ **Updated globals.css:** Changed from dark background (#0a0a0a) to light background (#ffffff) with dark text (#171717).
+2. ✅ **Converted Navbar:** Changed from black background to white with subtle border and shadow. Updated text colors to gray with green hover states.
+3. ✅ **Converted Footer:** Changed from dark gray (gray-900) to light gray (gray-50) with proper text contrast and green hover states.
+4. ✅ **Updated EventCard:** Changed from dark background (gray-800) to white with light borders and proper text contrast.
+5. ✅ **Updated ProgramCard:** Changed from indigo/purple colors to green/red gradients matching the site's color scheme.
+6. ✅ **Updated TestimonialCard:** Changed from indigo/purple colors to green/red gradients.
+7. ✅ **Updated Design System Documentation:** Reflected the new light theme with Vercel-style design principles.
 
-## Design Philosophy
+### Design Philosophy
 The website embodies modern educational excellence through:
 - **Clean & Professional:** Sophisticated design that inspires confidence
 - **Accessible Information:** Clear hierarchy and easy navigation
