@@ -11,9 +11,13 @@ export interface Program {
   description: string;
 }
 
-
-
-
+export interface Event {
+  id: string;
+  title: string;
+  date: string;
+  location: string;
+  description: string;
+}
 
 export interface Testimonial {
   id: string;
