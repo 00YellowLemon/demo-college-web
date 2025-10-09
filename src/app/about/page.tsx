@@ -123,15 +123,15 @@ export default function AboutPage() {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-xl overflow-hidden border border-gray-200">
-            <div className="grid grid-cols-1 lg:grid-cols-3">
-              <div className="bg-gradient-to-br from-green-700 to-red-700 p-8 text-white flex flex-col justify-center items-center">
+            <div className="flex flex-col lg:flex-row">
+              <div className="bg-gradient-to-br from-green-700 to-red-700 p-8 text-white flex flex-col items-center lg:w-1/3">
                 <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-4">
                   <Users className="h-16 w-16 text-green-700" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Prof. Elizabeth Muthoni</h3>
                 <p className="text-gray-100">Vice Chancellor</p>
               </div>
-              <div className="lg:col-span-2 p-8">
+              <div className="p-8 lg:w-2/3">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Message from the Vice Chancellor</h2>
                 <div className="prose prose-lg">
                   <p className="text-gray-700 mb-4">

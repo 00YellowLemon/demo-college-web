@@ -22,23 +22,23 @@ export default function ProgramCard({ program }: ProgramCardProps) {
           <div className="flex items-center gap-2 text-sm">
             <DollarSign className="h-5 w-5 text-indigo-600 flex-shrink-0" />
             <div>
-              <span className="font-semibold">KES {program.tuitionPerSemester.toLocaleString()}</span>
-              <span className="text-gray-600"> per semester</span>
+              <span className="font-bold text-gray-900">KES {program.tuitionPerSemester.toLocaleString()}</span>
+              <span className="text-gray-700 font-medium"> per semester</span>
             </div>
           </div>
           
           <div className="flex items-center gap-2 text-sm">
             <Clock className="h-5 w-5 text-indigo-600 flex-shrink-0" />
             <div>
-              <span className="font-semibold">{program.duration}</span>
-              <span className="text-gray-600"> ({program.semesters} semesters)</span>
+              <span className="font-bold text-gray-900">{program.duration}</span>
+              <span className="text-gray-700 font-medium"> ({program.semesters} semesters)</span>
             </div>
           </div>
           
           <div className="flex items-center gap-2 text-sm">
             <BookOpen className="h-5 w-5 text-indigo-600 flex-shrink-0" />
             <div>
-              <span className="font-semibold">Total: KES {totalTuition.toLocaleString()}</span>
+              <span className="font-bold text-gray-900">Total: KES {totalTuition.toLocaleString()}</span>
             </div>
           </div>
         </div>

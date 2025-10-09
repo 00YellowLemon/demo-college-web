@@ -80,7 +80,7 @@ export default function Home() {
               return (
                 <div 
                   key={highlight.id}
-                  className="bg-gray-50 rounded-lg shadow-md p-6 text-left md:text-center hover:shadow-xl transition-shadow duration-300 border border-gray-200"
+                  className="bg-gray-50 rounded-lg shadow-md p-6 text-left hover:shadow-xl transition-shadow duration-300 border border-gray-200"
                 >
                   <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-green-600 to-red-600 rounded-full mb-4">
                     <Icon className="h-8 w-8 text-white" />
